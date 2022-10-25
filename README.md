@@ -7,6 +7,7 @@ Portfólio pessoal para mostrar um pouco sobre quem sou e o que faço.
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -19,6 +20,10 @@ Portfólio pessoal para mostrar um pouco sobre quem sou e o que faço.
 <p align="center">
   <img alt="Preview portfólio - Lucas da Costa" src="assets/img/preview.png" width="100%">
 </p>
+
+## 🔖 Layout
+
+Você pode visualizar o layout do projeto através [DESSE LINK](https://lukeraa.github.io/Portfolio-Lucas-da-Costa/).
 
 ## 🚀 Tecnologias
 
