@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SYBTX10BX7"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SYBTX10BX7');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <title>Portfólio | Lucas da Costa</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">Lucas</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#sobre" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> Sobre
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Habilidades
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#servicos" class="nav__link">
+                            <i class="uil uil-briefcase-alt nav__icon"></i> Serviços
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Portfólio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contato" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i> Contato
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close nav__icon" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- Botão Mudar Tema -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__social">
+                        <a href="https://www.linkedin.com/in/lucas-da-costaa/" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin-alt"></i>
+                        </a>
+
+                        <a href="https://github.com/Lukeraa" target="_blank" class="home__social-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </a>
+                    </div>
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                
+                                <image class="home__blob-img" x='12' y='58' xlink:href="assets/img/perfil-rgb.png"/>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="home__data">
+                        <h1 class="home__title">Olá, Eu sou Lucas</h1>
+                        <h3 class="home__subtitle">Desenvolvedor Back-end</h3>
+                        <p class="home__description">Busco experiência na área de análise e desenvolvimento de aplicações Desktop ou áreas correlatas. Tenho softwares já produzidos para apresentar.</p>
+                        <a href="#contato" class="button button--flex">
+                            Entre em Contato<i class="uil uil-message"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#sobre" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home_scroll-name">Veja mais</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="sobre">
+            <h2 class="section__title">Sobre mim</h2>
+            <span class="section__subtitle">Introdução.</span>
+
+            <div class="about__container container grid">
+                <img src="assets/img/about.jpg" alt="" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">Me chamo Lucas, tenho 17 anos e atualmente estou cursando o ensino médio integrado ao técnico na ETEC Professor Basilides de Godoy. Meu curso é o ETIM de Mecatrônica, onde além de estudar as matérias do ensino médio convencional, também tenho a carga horária das matérias da engenharia mecatrônica.
+                        Sei programar em C#(.NET), Python, SQL, HTML5/CSS3, JavaScript e estou fazendo um curso de React Native. Todas as linguagens que sei aprendi através de conteúdos gratuitos na internet.
+                        Quero muito aprender, portanto, estou interessado em qualquer vaga de emprego para adquirir experiência e evoluir na carreira de analista e desenvolvedor de sistemas. Tenho alguns projetos que já desenvolvi, caso queira podemos fazer uma reunião para que eu os mostre =).</p>
+
+                    <div class="about__info">
+                            <div>
+                                <span class="about__info-title">04+</span>
+                                <span class="about__info-name">Anos<br/> Aprendendo</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">02+</span>
+                                <span class="about__info-name">Projetos<br/> concluídos em C#</span>
+                            </div>
+
+                            <div>
+                                <span class="about__info-title">07+</span>
+                                <span class="about__info-name">Tecnologias<br/> dominadas</span>
+                            </div>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/Lucas-Cv.pdf" class="button button--flex">
+                            Baixar CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Habilidades</h2>
+            <span class="section__subtitle">Meu nível técnico.</span>
+
+            <div class="skills_container container grid">
+                <div>
+                    <!-- ======================= Habilidade 1 ======================= -->
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Desenvolvedor Front-end</h1>
+                                <span class="skills__subtitle">Mais de 3 anos.</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">20%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- ======================= Habilidade 2 ======================= -->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__titles">Desenvolvedor Back-end</h1>
+                                <span class="skills__subtitle">Mais de 3 anos.</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">C#</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__c"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__python"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__php"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">SQL</h3>
+                                    <span class="skills__number">90%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__sql"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- ======================= Habilidade 3 ======================= -->
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-clapper-board skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Extras</h1>
+                                <span class="skills__subtitle">Mais de 1 ano.</span>
+                            </div>
+
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Sony Vegas</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__vegas"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Adobe Premiere</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__premiere"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Adobe Photoshop</h3>
+                                    <span class="skills__number">35%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__ps"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">FL Studio</h3>
+                                    <span class="skills__number">85%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__fl"></span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Pacote Office</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__office"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="qualification section">
+            <h2 class="section__title">Qualificações</h2>
+            <span class="section__subtitle">Minha jornada pessoal.</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Formação
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <div class="qualification__content">
+                        <!-- ======================= QUALIFICAÇÃO 1 ======================= -->
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title"><b>Conclusão</b> do Ensino Fundamental I.</h3>
+                                <span class="qualification__subtitle">Escola Capítulo I.</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2015
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+
+                        <!-- ======================= QUALIFICAÇÃO 2 ======================= -->
+                        <div class="qualification__data">
+                            <div></div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="qualification__title"><b>Conclusão</b> do Ensino Fundamental II.</h3>
+                                <span class="qualification__subtitle">Colégio Madre Cabrini.</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2019
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- ======================= QUALIFICAÇÃO 3 ======================= -->
+                        <div class="qualification__data">
+
+                            <div>
+                                <h3 class="qualification__title"><b>Cursando</b> Ensino Técnico Integrado ao Médio em Mecatrônica.</h3>
+                                <span class="qualification__subtitle">ETEC Professor Basilides de Godoy.</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    2020 - 2022
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="services section" id="servicos">
+            <h2 class="section__title">Serviços</h2>
+            <span class="section__subtitle">O que eu ofereço.</span>
+
+            <div class="services__container container grid">
+
+                <!-- ======================= Serviço 1 ======================= -->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-desktop services__icon"></i>
+                        <h3 class="services__title">Aplicativos Desktop <br/> Full Stack</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver Mais
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    
+                    <div class="services__modal">
+                        <dic class="services__modal-content">
+                            <h4 class="services__modal-title">Aplicativos Desktop <br/> Full Stack</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Desenvolvimento do processamento de dados.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Criação da interface gráfica.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Sei desenvolver o software completo.</p>
+                                </li>
+                            </ul>
+                        </dic>
+                    </div>
+                </div>
+
+                <!-- ======================= Serviço 2 ======================= -->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-arrow services__icon"></i>
+                        <h3 class="services__title">Primeiro Emprego <br/> #1</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver Mais
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    
+                    <div class="services__modal">
+                        <dic class="services__modal-content">
+                            <h4 class="services__modal-title">Primeiro Emprego <br/> #1</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Busco me aprimorar cada vez mais.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Estou apto a desenvolver softwares.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Adoraria realizar cursos novos para aprender novas linguagens de programação.</p>
+                                </li>
+                            </ul>
+                        </dic>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfólio</h2>
+            <span class="section__subtitle">Trabalho mais recente.</span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                
+                    <!-- ======================= Portifólio 1 ======================= -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Aplicativo Desktop</h3>
+                            <p class="portfolio__description">Aplicativo Desktop projetado para hospitais, onde é possível cadastrar novos doutores, pacientes e preencher um diagnóstico do paciente.</p>
+                            <a href="#portfolio" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ======================= Portifólio 2 ======================= -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Design agradável</h3>
+                            <p class="portfolio__description">Aplicativo Desktop projetado para hospitais, onde é possível cadastrar novos doutores, pacientes e preencher um diagnóstico do paciente.</p>
+                            <a href="#portfolio" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ======================= Portifólio 3 ======================= -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Código Limpo</h3>
+                            <p class="portfolio__description">Aplicativo Desktop projetado para hospitais, onde é possível cadastrar novos doutores, pacientes e preencher um diagnóstico do paciente.</p>
+                            <a href="#portfolio" class="button button--flex button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <br/>
+                <br/>
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+
+        <section class="project section" id="projeto">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <h2 class="project__title">Você tem um novo projeto</h2>
+                        <p class="project__description">Entre em contato comigo para colocá-lo para funcionar.</p>
+                        <a href="#contato" class="button button--flex button--white">
+                            Entre em Contato
+                            <i class="uil uil-message project__icon button__icon"></i>
+                        </a>
+                    </div>
+
+                    <img src="assets/img/perfil2-rgb.png" class="project__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contato">
+            <h2 class="section__title">Entre em Contato</h2>
+            <span class="section__subtitle">Entrar em contato</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Me ligue</h3>
+                            <span class="contact__subtitle">(11) 94574-5781</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email:</h3>
+                            <span class="contact__subtitle">lucas.costa2319@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Endereço</h3>
+                            <span class="contact__subtitle">Vila Mariana, São Paulo</span>
+                        </div>
+                    </div>
+                </div>
+                <form action="https://api.staticforms.xyz/submit" method="POST" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Nome</label>
+                            <input type="text" name="name" required class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" name="email" required class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Projeto</label>
+                            <input type="text" name="$project" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Mensagem</label>
+                            <textarea name="message" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+
+                        <!-- <input type="text" name="honeypot" style="display:none"> -->
+                        <input type="hidden" name="accessKey" value="a21433d5-66fe-4ff7-ac65-17bcf679ddd8">
+                        <input type="hidden" name="subject" value="Contato | Site"/>
+                        <input type="hidden" name="replyTo" value="lucas.costa2319@gmail.com">
+                        <input type="hidden" name="redirectTo" value="http://emailenviado.epizy.com">
+                        <!-- <input type="submit" value="Enviar Mensagem" class="button button--flex"/>
+                        <i class="uil uil-message button__icon"></i> -->
+                        <div>
+                            <input type="submit" value="Enviar Mensagem" class="button button--flex"/>
+                        </div>
+
+                        <!-- <div>
+                            <a href="" class="button button--flex">
+                                <button type="submit"></button>  Enviar Mensagem
+                                <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div> -->
+                        
+                    </div>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Lucas</h1>
+                    <span class="footer__subtitle">Desenvolvedor Backend</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#servicos" class="footer__link">Serviços</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfólio</a>
+                    </li>
+                    <li>
+                        <a href="#contato" class="footer__link">Entre em Contato</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/luquinhasdaselva/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/lucas-da-costaa/" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin-alt"></i>
+                    </a>
+                    
+                    <a href="https://github.com/Lukeraa" target="_blank" class="footer__social">
+                        <i class="uil uil-github-alt"></i>
+                    </a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Lucas da Costa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
