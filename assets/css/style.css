@@ -795,8 +795,9 @@ img {
 }
 
 .project__img {
-    width: 472px;
+    width: 250px;
     justify-self: center;
+    margin-top: -180px;
 }
 
 .contact__container {
