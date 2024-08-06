@@ -23,7 +23,7 @@ Portfólio pessoal para mostrar um pouco sobre quem sou e o que faço.
 
 ## 🔖 Portfólio
 
-Você pode visualizar o portfólio através [DESSE LINK](https://lukeraa.github.io/Portfolio-Lucas-da-Costa/).
+Você pode visualizar o portfólio através [DESSE LINK](https://devlucasdacosta.github.io/Portfolio-Lucas-da-Costa/).
 
 ## 🚀 Tecnologias
 
